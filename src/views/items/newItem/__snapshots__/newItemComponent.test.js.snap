@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New Item Component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NewItemComponent
+    createItem={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <Input
+            handleChange={[Function]}
+            placeholder="What to do?"
+            styling={
+              Object {
+                "borderBottomLeftRadius": "30px",
+                "borderTopLeftRadius": "30px",
+                "width": "60%",
+              }
+            }
+            triggerMethod={[Function]}
+            value=""
+          />
+          <Input
+            handleChange={[Function]}
+            placeholder="Name"
+            styling={
+              Object {
+                "borderRight": "1px solid white",
+                "width": "20%",
+              }
+            }
+            triggerMethod={[Function]}
+            value=""
+          />
+          <AddButtonComponent
+            createNewItem={[Function]}
+          />
+        </styled.div>,
+        <span />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            Array [
+              <Input
+                handleChange={[Function]}
+                placeholder="What to do?"
+                styling={
+                  Object {
+                    "borderBottomLeftRadius": "30px",
+                    "borderTopLeftRadius": "30px",
+                    "width": "60%",
+                  }
+                }
+                triggerMethod={[Function]}
+                value=""
+              />,
+              <Input
+                handleChange={[Function]}
+                placeholder="Name"
+                styling={
+                  Object {
+                    "borderRight": "1px solid white",
+                    "width": "20%",
+                  }
+                }
+                triggerMethod={[Function]}
+                value=""
+              />,
+            ],
+            <AddButtonComponent
+              createNewItem={[Function]}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "input_description",
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "placeholder": "What to do?",
+              "styling": Object {
+                "borderBottomLeftRadius": "30px",
+                "borderTopLeftRadius": "30px",
+                "width": "60%",
+              },
+              "triggerMethod": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "input_name",
+            "nodeType": "function",
+            "props": Object {
+              "handleChange": [Function],
+              "placeholder": "Name",
+              "styling": Object {
+                "borderRight": "1px solid white",
+                "width": "20%",
+              },
+              "triggerMethod": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "createNewItem": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <Input
+              handleChange={[Function]}
+              placeholder="What to do?"
+              styling={
+                Object {
+                  "borderBottomLeftRadius": "30px",
+                  "borderTopLeftRadius": "30px",
+                  "width": "60%",
+                }
+              }
+              triggerMethod={[Function]}
+              value=""
+            />
+            <Input
+              handleChange={[Function]}
+              placeholder="Name"
+              styling={
+                Object {
+                  "borderRight": "1px solid white",
+                  "width": "20%",
+                }
+              }
+              triggerMethod={[Function]}
+              value=""
+            />
+            <AddButtonComponent
+              createNewItem={[Function]}
+            />
+          </styled.div>,
+          <span />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              Array [
+                <Input
+                  handleChange={[Function]}
+                  placeholder="What to do?"
+                  styling={
+                    Object {
+                      "borderBottomLeftRadius": "30px",
+                      "borderTopLeftRadius": "30px",
+                      "width": "60%",
+                    }
+                  }
+                  triggerMethod={[Function]}
+                  value=""
+                />,
+                <Input
+                  handleChange={[Function]}
+                  placeholder="Name"
+                  styling={
+                    Object {
+                      "borderRight": "1px solid white",
+                      "width": "20%",
+                    }
+                  }
+                  triggerMethod={[Function]}
+                  value=""
+                />,
+              ],
+              <AddButtonComponent
+                createNewItem={[Function]}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "input_description",
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "placeholder": "What to do?",
+                "styling": Object {
+                  "borderBottomLeftRadius": "30px",
+                  "borderTopLeftRadius": "30px",
+                  "width": "60%",
+                },
+                "triggerMethod": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "input_name",
+              "nodeType": "function",
+              "props": Object {
+                "handleChange": [Function],
+                "placeholder": "Name",
+                "styling": Object {
+                  "borderRight": "1px solid white",
+                  "width": "20%",
+                },
+                "triggerMethod": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "createNewItem": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
