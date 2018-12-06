@@ -1,9 +1,9 @@
 {
-  "name": "mhp",
+  "name": "todo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/selinabrauns/mhp.git",
-  "author": "selinabrauns <mail@selinabrauns.com>",
+  "repository": "https://github.com/jamesjones93/todo",
+  "author": "jamesjones <james.jones93@gmail.com>",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "node app.js",
