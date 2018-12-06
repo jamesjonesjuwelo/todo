@@ -1,16 +1,12 @@
 TO-DO
 
-The app can be viewed via a Heroku deployment, via:
-
-Otherwise...
 To initialise the application, run:
 1. yarn install
 2. yarn build
 3. yarn start
+4. create a local PostgreSQL db, named 'listdb'
 
-The project will then be running via http://localhost:8080/
-
-Otherwise, the app can be viewed via a Heroku deployment, via:
+The project will then be running via http://localhost:8080/, with the database running on port 5432.
 
 ###Technologies used
 1. React
