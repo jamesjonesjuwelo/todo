@@ -168,4 +168,4 @@ app.get('*', (req, res) => {
   res.sendFile(__dirname + '/dist/index.html');
 });
 
-app.listen(8080, () => console.log('Im listening'));
+app.listen(process.env.PORT || 8080, () => console.log("Im listening"));
