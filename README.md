@@ -8,7 +8,7 @@ To initialise the application, run:
 
 The project will then be running via http://localhost:8080/, with the database running on port 5432.
 
-###Technologies used
+Technologies used
 1. React
 2. Redux
 3. Redux Observables
